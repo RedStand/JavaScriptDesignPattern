@@ -8,8 +8,12 @@ var checkobject = {
         return this;
     },
     checkPassword : function(){
-        console.log('   ')
+        console.log('Check Password!');
+        return this;
     }
 
 
 }
+
+console.log('CheckObject7');
+checkobject.checkName().checkEmail().checkPassword();
